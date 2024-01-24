@@ -1,0 +1,24 @@
+﻿<Window x:Class="ADO.NET_INTRO_HW2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADO.NET_INTRO_HW2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="950">
+    <Grid>
+
+        <Button Name ="select_Button"  Height="40" Width="120" Margin="639,189,191,505" FontSize="20" Content="SELECT" FontStyle="Oblique" Background="BlueViolet" Foreground="Azure" Click="Button_Click"/>
+        <Button  Name ="insert_Button" Height="40" Width="120" FontSize="20" Content="INSERT" FontStyle="Oblique" Background="CadetBlue" Foreground="AliceBlue" Margin="114,189,716,505"/>
+        <Button  Name ="delect_Button" Height="40" Width="120" FontSize="20" Content="DELETE" FontStyle="Oblique" Background="Chocolate" Foreground="AntiqueWhite" Margin="302,189,528,505" Click="delect_Button_Click"  />
+        <Button  Name ="Update_Button" Height="40" Width="120" FontSize="20" Content="UPDATE" FontStyle="Oblique" Background="DeepSkyBlue" Foreground="Wheat" Margin="475,189,355,505" Click="Update_Button_Click"  />
+
+
+        <TextBox Name ="TextBox"  Margin="114,90,191,584" Background="White" Foreground="Black" FontStyle="Italic" />
+
+
+
+
+
+    </Grid>
+</Window>
